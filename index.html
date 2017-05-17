@@ -1,17 +1,37 @@
+<link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
 <body>
 <header>
-  <h1>Rotating words using CSS Animations</h1>
 </header>
 <section class="wrapper">
 
-  <h2 class="sentence">Janie is a lovely girl and she is very
-    <div class="slidingVertical">
+  <h2 class="sentence">Jaden thinks "The Wizarding World of Harry Potter" is
+    <div class="antiClock">
       <span>Amazing.</span>
       <span>Beautiful.</span>
       <span>Cute.</span>
       <span>Delightful.</span>
-      <span>Emotional.</span>
     </div>
   </h2>
 </section>
+
+<div id="slideShowContainer">
+
+    <div id="slideShow">
+
+    	<ul>
+            <li><img src="image/1.png" width="100%" alt="One" /></li>
+            <li><img src="image/2.png" width="100%" alt="Two" /></li>
+            <li><img src="image/3.png" width="100%" alt="Three" /></li>
+        </ul>
+
+    </div>
+
+    <a id="previousLink" href="#">»</a>
+    <a id="nextLink" href="#">«</a>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="js/jquery.rotate.js"></script>
+<script src="js/script.js"></script>
 </body>
